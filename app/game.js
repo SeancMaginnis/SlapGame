@@ -2,6 +2,14 @@ let target = {
   name: "steven",
   health: 100,
   hits: 0,
+  items: ['hpotion', 'steriod', 'pwn']
+
+}
+let items = {
+  hpotion: { name: 'hpotion', modifier: 2, discription: 'Heals' },
+  steroid: { name: 'steroid', modifier: 4, discription: 'RAGE' },
+  pwn: { name: 'pwn', modifier: 100, discription: 'WIN' }
+
 
 }
 let kick = 10
