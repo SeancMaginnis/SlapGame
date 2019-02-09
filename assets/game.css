@@ -1,5 +1,9 @@
 /*Only use this file if you want to override bootstrap or create your own style*/
 
 .placeholder {
-  size: 200px
+  height: 200px;
+  width: 200px
+}
+.bgcolor{
+  background-color: violet
 }
