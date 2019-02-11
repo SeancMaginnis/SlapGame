@@ -1,5 +1,5 @@
 let target = {
-  name: "steven",
+  name: "LION MAN",
   health: 100,
   hits: 0,
   items: []
@@ -34,7 +34,8 @@ function roundhouse() {
 
 function crowbar() {
   if (target.health >= 1) {
-    target.health -= 20;
+    let damage = 20 + addMods()
+    target.health -= damage;
     target.hits++;
   }
   update()
